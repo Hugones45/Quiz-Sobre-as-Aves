@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./stylesheet.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>Quiz | Aves</title>
+</head>
+<body>
+  <div class="intro py-3 py-3 bg-success text-center">
+    <div class="container">
+      <h2 class="text-light display-3 my-4"> &#129417 Quiz &#128038</h2>
+    </div>
+  </div>
+
+  <div class="quiz py-4 bg-dark">
+    <div class="container">
+      <h2 class="text-light display-4 my-5">Teste seus conhecimentos sobre as aves!</h2>
+
+<div class="head-chart">
+    <div class="chart">
+        <div class="chart-close">X</div>
+        <div class="chart-content">
+
+       <div class="allBirds">
+        <img class="birdsCss" src="./fossil bird.bmp" alt="">
+        <img class="birdsCss" src="./hoatzin.jpg" alt="">
+        <img class="birdsCss" src="./arara3.jpg" alt="">
+        <img class="birdsCss" src="./poisonbird.jpg" alt="">
+        <img class="birdsCss" src="./harpia.jpg" alt="">
+       </div>
+
+            <h2 class="congratulations">Parabens!</h2>
+            <p class="scoreValue"></p>
+            <a class="linkAves" href="https://www.wikiaves.com.br/" target="blank">WikiAves</a>
+
+        </div>
+    </div>
+</div>
+
+      <form class="quiz-form text-light">
+        <div class="border border-success">
+          <p class="lead font-weight-normal">1. O que são as aves?</p>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion1" value="A" checked>
+              Aves são descendentes dos dinossauros, animais unicos que possuem classificação propria e catacteristicas singulares.
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion1" value="B">
+              Aves são dinossaursos e por consequencia também são repteis.
+            </label>
+          </div>
+        </div>
+
+        <div class="border border-success">
+          <p class="lead font-weight-normal">2. Existe alguma ave atual que ainda possui garras nas asas?</p>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion2" value="A" checked>
+              Não, embora alguns gansos raramente possam vir a nascer com garras não funcionais nas asas.
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion2" value="B">
+              Sim, o Jacu Cigano brasileiro ou também chamado de hoatzin, é a unica ave no mundo que quando jovem possue garras nas asas que são utilizadas para escalar por entre as árvores.
+            </label>
+          </div>
+        </div>
+
+        <div class="border border-success">
+          <p class="lead font-weight-normal">3. Existem passaros venenosos? </p>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion3" value="A" checked>
+              Sim, o Pitohui dichrous, ou pitohui de capuz é um passaro australiano que possue em sua pele e penas compostos toxicos capazes de causar paralisia.
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion3" value="B">
+              Não, uma vez que passaros não possuem presas nem ferrões para causar inoculações de venenos.
+            </label>
+          </div>
+        </div>
+
+        <div class="border border-success">
+          <p class="lead font-weight-normal">4. Qual é a ave de rapina mais forte do mundo?</p>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion4" value="A" checked>
+              A aguia marinha de steller que por ser considerada a maior e mais pesada também é considerada mais forte de todas as aguias existentes. Sua envergadura de asas chega a atingir 2,30 de comprimento!
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion4" value="B">
+              A harpia brasileira é considerada a segunda maior aguia existente mas a primeira e mais poderosa delas, tendo garras nas patas que chegam a serem maiores do que as garras de um urso pardo.
+            </label>
+          </div>
+        </div>
+        
+        <div class="text-center">
+          <button class="btn btn-danger">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
